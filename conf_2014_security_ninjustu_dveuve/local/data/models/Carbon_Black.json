@@ -1,0 +1,262 @@
+{
+    "modelName": "Carbon_Black",
+    "displayName": "Carbon Black",
+    "description": "",
+    "objectSummary": {
+        "Event-Based": 2,
+        "Transaction-Based": 0,
+        "Search-Based": 0
+    },
+    "objects": [
+        {
+            "objectName": "Carbon_Black_Logs",
+            "displayName": "Carbon Black Logs",
+            "parentName": "BaseEvent",
+            "fields": [
+                {
+                    "fieldName": "date_hour",
+                    "owner": "Carbon_Black_Logs",
+                    "type": "number",
+                    "required": false,
+                    "multivalue": false,
+                    "hidden": false,
+                    "editable": true,
+                    "displayName": "date_hour",
+                    "comment": "",
+                    "fieldSearch": ""
+                },
+                {
+                    "fieldName": "date_wday",
+                    "owner": "Carbon_Black_Logs",
+                    "type": "string",
+                    "required": false,
+                    "multivalue": false,
+                    "hidden": false,
+                    "editable": true,
+                    "displayName": "date_wday",
+                    "comment": "",
+                    "fieldSearch": ""
+                },
+                {
+                    "fieldName": "path",
+                    "owner": "Carbon_Black_Logs",
+                    "type": "string",
+                    "required": false,
+                    "multivalue": false,
+                    "hidden": false,
+                    "editable": true,
+                    "displayName": "path",
+                    "comment": "",
+                    "fieldSearch": ""
+                },
+                {
+                    "fieldName": "process_guid",
+                    "owner": "Carbon_Black_Logs",
+                    "type": "string",
+                    "required": false,
+                    "multivalue": false,
+                    "hidden": false,
+                    "editable": true,
+                    "displayName": "process_guid",
+                    "comment": "",
+                    "fieldSearch": ""
+                },
+                {
+                    "fieldName": "type",
+                    "owner": "Carbon_Black_Logs",
+                    "type": "string",
+                    "required": false,
+                    "multivalue": false,
+                    "hidden": false,
+                    "editable": true,
+                    "displayName": "type",
+                    "comment": "",
+                    "fieldSearch": ""
+                },
+                {
+                    "fieldName": "_time",
+                    "owner": "BaseEvent",
+                    "type": "timestamp",
+                    "required": false,
+                    "multivalue": false,
+                    "hidden": false,
+                    "editable": true,
+                    "displayName": "_time",
+                    "comment": "",
+                    "fieldSearch": ""
+                },
+                {
+                    "fieldName": "host",
+                    "owner": "BaseEvent",
+                    "type": "string",
+                    "required": false,
+                    "multivalue": false,
+                    "hidden": false,
+                    "editable": true,
+                    "displayName": "host",
+                    "comment": "",
+                    "fieldSearch": ""
+                },
+                {
+                    "fieldName": "source",
+                    "owner": "BaseEvent",
+                    "type": "string",
+                    "required": false,
+                    "multivalue": false,
+                    "hidden": false,
+                    "editable": true,
+                    "displayName": "source",
+                    "comment": "",
+                    "fieldSearch": ""
+                },
+                {
+                    "fieldName": "sourcetype",
+                    "owner": "BaseEvent",
+                    "type": "string",
+                    "required": false,
+                    "multivalue": false,
+                    "hidden": false,
+                    "editable": true,
+                    "displayName": "sourcetype",
+                    "comment": "",
+                    "fieldSearch": ""
+                }
+            ],
+            "calculations": [],
+            "constraints": [
+                {
+                    "search": "index=carbonblack",
+                    "owner": "Carbon_Black_Logs"
+                }
+            ],
+            "lineage": "Carbon_Black_Logs"
+        },
+        {
+            "objectName": "File_Creations",
+            "displayName": "File Creations",
+            "parentName": "Carbon_Black_Logs",
+            "fields": [
+                {
+                    "fieldName": "date_hour",
+                    "owner": "Carbon_Black_Logs",
+                    "type": "number",
+                    "required": false,
+                    "multivalue": false,
+                    "hidden": false,
+                    "editable": true,
+                    "displayName": "date_hour",
+                    "comment": "",
+                    "fieldSearch": ""
+                },
+                {
+                    "fieldName": "date_wday",
+                    "owner": "Carbon_Black_Logs",
+                    "type": "string",
+                    "required": false,
+                    "multivalue": false,
+                    "hidden": false,
+                    "editable": true,
+                    "displayName": "date_wday",
+                    "comment": "",
+                    "fieldSearch": ""
+                },
+                {
+                    "fieldName": "path",
+                    "owner": "Carbon_Black_Logs",
+                    "type": "string",
+                    "required": false,
+                    "multivalue": false,
+                    "hidden": false,
+                    "editable": true,
+                    "displayName": "path",
+                    "comment": "",
+                    "fieldSearch": ""
+                },
+                {
+                    "fieldName": "process_guid",
+                    "owner": "Carbon_Black_Logs",
+                    "type": "string",
+                    "required": false,
+                    "multivalue": false,
+                    "hidden": false,
+                    "editable": true,
+                    "displayName": "process_guid",
+                    "comment": "",
+                    "fieldSearch": ""
+                },
+                {
+                    "fieldName": "type",
+                    "owner": "Carbon_Black_Logs",
+                    "type": "string",
+                    "required": false,
+                    "multivalue": false,
+                    "hidden": false,
+                    "editable": true,
+                    "displayName": "type",
+                    "comment": "",
+                    "fieldSearch": ""
+                },
+                {
+                    "fieldName": "_time",
+                    "owner": "BaseEvent",
+                    "type": "timestamp",
+                    "required": false,
+                    "multivalue": false,
+                    "hidden": false,
+                    "editable": true,
+                    "displayName": "_time",
+                    "comment": "",
+                    "fieldSearch": ""
+                },
+                {
+                    "fieldName": "host",
+                    "owner": "BaseEvent",
+                    "type": "string",
+                    "required": false,
+                    "multivalue": false,
+                    "hidden": false,
+                    "editable": true,
+                    "displayName": "host",
+                    "comment": "",
+                    "fieldSearch": ""
+                },
+                {
+                    "fieldName": "source",
+                    "owner": "BaseEvent",
+                    "type": "string",
+                    "required": false,
+                    "multivalue": false,
+                    "hidden": false,
+                    "editable": true,
+                    "displayName": "source",
+                    "comment": "",
+                    "fieldSearch": ""
+                },
+                {
+                    "fieldName": "sourcetype",
+                    "owner": "BaseEvent",
+                    "type": "string",
+                    "required": false,
+                    "multivalue": false,
+                    "hidden": false,
+                    "editable": true,
+                    "displayName": "sourcetype",
+                    "comment": "",
+                    "fieldSearch": ""
+                }
+            ],
+            "calculations": [],
+            "constraints": [
+                {
+                    "search": "type=filemod",
+                    "owner": "Carbon_Black_Logs.File_Creations"
+                }
+            ],
+            "lineage": "Carbon_Black_Logs.File_Creations"
+        }
+    ],
+    "objectNameList": [
+        "Carbon_Black_Logs",
+        "File_Creations"
+    ]
+}

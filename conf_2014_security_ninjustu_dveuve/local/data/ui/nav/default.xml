@@ -1,0 +1,26 @@
+<nav search_view="search" color="#65A637">
+  <view name="search" default='true' />
+  <collection label="Scenario One">
+    <view name="s1_datagen" />
+    <saved source="all" match="Scenario One" />
+  </collection>
+  <collection label="Scenario Two">
+    <view name="s2_datagen" />
+    <saved source="all" match="Scenario Two" />
+  </collection>
+  <collection label="Scenario Three">
+    <view name="s3_datagen" />
+    <saved source="all" match="Scenario Three" />
+    <view name="exec_file_modifications" />
+  </collection>
+  <collection label="Scenario Four">
+    <view name="s4_datagen" />
+  </collection>
+  <collection label="Standard">
+  <view name="search" default='true' />
+  <view name="data_models" />
+  <view name="reports" />
+  <view name="alerts" />
+  <view name="dashboards" />
+  </collection>
+</nav>

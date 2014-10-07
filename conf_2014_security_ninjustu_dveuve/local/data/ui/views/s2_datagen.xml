@@ -1,0 +1,11 @@
+<dashboard>
+  <label>Scenario Two Datagen</label>
+  <description/>
+  <row>
+    <html>
+      <h1>Scenario Two: Data Gen</h1>
+      <p>As written, datagen two will produce a highly variable data volume, but in my last run it consumed 135 GB of data. Recommend you set this up on a lab instance where you don't care. Running the datagen is simple: Just run: <emphasis>/opt/splunk/bin/splunk cmd /opt/splunk/etc/apps/conf_2014_security_ninjustu_dveuve/bin/generateHealthRecords.pl</emphasis>. There are two expectations of this script -- the first is that you have your Splunk installed at /opt/splunk. If you don't, you'll need to modify that command accordingly, and also modify the script with a new $SPLUNK_HOME. You should also check the inputs.conf, as I ended up hardcoding the /opt/splunk path there too. </p>
+      <p>If you wish to decrease the data volume, you can tweak the number of records per day, but note that it is a very misleading named variable. The actual math is in number of records per second, so per day / 24 / 60 / 60 * randomness factor. If you were to set it to 500 records per day, none would actually be generated because the per second rate is too low.</p>
+    </html>
+  </row>
+</dashboard>

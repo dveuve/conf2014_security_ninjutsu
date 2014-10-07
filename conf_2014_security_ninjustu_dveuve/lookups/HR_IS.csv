@@ -1,0 +1,398 @@
+EmployeeID,City,YearsAtCompany
+100017,"San Diego",10
+100121,"San Francisco",9
+100143,"San Francisco",7
+100166,Seattle,6
+100182,"Santa Rosa",7
+100288,Honolulu,7
+100377,"San Diego",2
+100590,Seattle,5
+100618,"San Francisco",5
+100626,"Santa Rosa",8
+100691,"San Diego",3
+100706,Honolulu,3
+100740,Seattle,5
+100829,Denver,2
+101012,"San Diego",8
+101106,"Santa Rosa",8
+101214,Honolulu,7
+101328,Seattle,5
+101651,Denver,2
+101701,"San Diego",1
+101706,"Santa Rosa",9
+101712,"San Diego",4
+101749,Honolulu,3
+101797,Denver,6
+101959,"San Diego",1
+102188,Denver,8
+102328,Honolulu,6
+102375,"Santa Rosa",0
+102403,Denver,1
+102432,Seattle,9
+102560,"San Francisco",10
+102563,Honolulu,6
+102611,"San Francisco",9
+102760,"San Diego",3
+102821,Seattle,3
+102866,"San Francisco",0
+102968,"San Diego",4
+103251,"San Diego",4
+103270,Seattle,8
+103462,Honolulu,8
+103605,"San Francisco",8
+103693,Denver,8
+103829,"San Francisco",7
+103844,"San Diego",3
+103997,"San Diego",9
+104170,Honolulu,7
+104332,Honolulu,4
+104495,"San Diego",2
+104654,Honolulu,7
+104668,Seattle,8
+104722,Honolulu,3
+104976,Denver,3
+105083,Seattle,7
+105523,"San Diego",9
+105587,Denver,8
+105651,Denver,6
+105771,"San Francisco",0
+105868,"San Francisco",2
+105923,"Santa Rosa",9
+105939,Denver,2
+105942,"San Francisco",10
+106062,"San Diego",1
+106144,Seattle,10
+106194,Honolulu,9
+106684,"Santa Rosa",6
+106853,Seattle,6
+106880,"San Diego",5
+106910,Denver,1
+106932,Honolulu,4
+106997,Denver,1
+107086,"Santa Rosa",9
+107185,"San Francisco",4
+107348,Honolulu,3
+107390,Seattle,0
+107409,"San Francisco",5
+107498,"San Francisco",5
+107703,Denver,9
+107820,Denver,5
+107832,"San Diego",5
+107874,Denver,2
+107915,Seattle,9
+107936,Honolulu,6
+108169,Denver,9
+108171,Denver,6
+108178,"San Diego",5
+108422,Seattle,2
+108521,Seattle,2
+108741,Seattle,1
+108789,"San Francisco",6
+108800,Honolulu,1
+109104,"San Diego",9
+109136,Honolulu,8
+109184,Honolulu,4
+109321,"Santa Rosa",1
+109432,"San Francisco",2
+109506,Honolulu,8
+109606,Honolulu,2
+109859,"Santa Rosa",8
+109874,"Santa Rosa",6
+109910,"San Francisco",1
+109986,"San Diego",10
+110227,"San Diego",1
+110317,"Santa Rosa",4
+110637,"San Diego",2
+110949,"San Diego",9
+111053,"San Francisco",4
+111060,Denver,9
+111091,Denver,8
+111323,"San Diego",8
+111558,Denver,0
+111569,"San Diego",4
+111579,"Santa Rosa",0
+111631,"Santa Rosa",7
+111664,Seattle,2
+111759,Honolulu,8
+111881,"San Francisco",8
+112060,"San Diego",6
+112128,"San Francisco",3
+112307,Honolulu,2
+112370,Honolulu,4
+112420,Denver,3
+112458,Seattle,9
+112708,Seattle,2
+112782,Seattle,6
+112795,Honolulu,1
+112833,"San Diego",9
+112868,Honolulu,3
+113345,Honolulu,2
+113470,"Santa Rosa",4
+113684,Denver,6
+113778,"San Francisco",4
+114096,"San Diego",5
+114178,"Santa Rosa",1
+114311,Seattle,10
+114401,Seattle,8
+114541,Denver,6
+114699,Denver,7
+114755,"Santa Rosa",2
+114805,"San Diego",8
+114869,Denver,7
+114898,Denver,6
+115064,Honolulu,8
+115084,Honolulu,9
+115349,Seattle,1
+115690,"Santa Rosa",7
+115716,"San Diego",3
+115812,"San Diego",9
+115865,"Santa Rosa",7
+116008,"San Francisco",7
+116095,"San Francisco",8
+116160,"Santa Rosa",9
+116210,"San Francisco",9
+116336,Seattle,9
+116341,Denver,4
+116610,Honolulu,3
+116722,Seattle,4
+117054,Denver,2
+117107,"San Francisco",3
+117139,Denver,2
+117193,Seattle,3
+117239,Seattle,6
+117290,"San Diego",5
+117431,Denver,6
+117447,"San Francisco",5
+117499,"San Francisco",2
+117597,Honolulu,5
+117705,"Santa Rosa",6
+117808,"San Francisco",3
+117837,"San Diego",10
+117911,"Santa Rosa",5
+117975,Seattle,2
+118124,Honolulu,10
+118196,Seattle,8
+118241,"Santa Rosa",9
+118286,"San Diego",4
+118295,Honolulu,6
+118566,Denver,3
+118749,"San Francisco",6
+118858,Honolulu,9
+118970,Denver,2
+119028,"San Francisco",1
+119101,"San Diego",1
+119135,"Santa Rosa",5
+119147,Seattle,7
+119249,"Santa Rosa",10
+119256,"San Francisco",6
+119270,"San Diego",5
+119307,Seattle,7
+119449,Honolulu,6
+119570,Seattle,6
+119581,Seattle,4
+119687,Honolulu,10
+119788,Honolulu,4
+119935,"San Francisco",4
+119945,"San Francisco",9
+119950,Seattle,5
+119993,Honolulu,6
+120145,"Santa Rosa",7
+120269,"San Diego",1
+120404,Honolulu,5
+120425,Seattle,9
+120477,Seattle,2
+120500,"Santa Rosa",8
+120510,"San Diego",3
+120549,"San Diego",5
+120615,Denver,2
+120781,"Santa Rosa",2
+121044,Seattle,8
+121088,"San Francisco",3
+121115,"San Francisco",0
+121223,Seattle,4
+121233,"Santa Rosa",10
+121271,"San Diego",6
+121587,"San Francisco",4
+121724,"San Francisco",10
+121897,Honolulu,1
+121898,"Santa Rosa",4
+121919,"San Diego",7
+121942,"San Diego",8
+122031,Denver,2
+122036,"Santa Rosa",7
+122179,Honolulu,2
+122520,"San Diego",4
+122523,"Santa Rosa",3
+122562,"Santa Rosa",6
+122601,"Santa Rosa",5
+122648,"San Francisco",6
+122679,Honolulu,6
+122786,"San Francisco",8
+122995,"Santa Rosa",8
+123139,"San Diego",5
+123204,"Santa Rosa",0
+123226,"San Francisco",10
+123475,"San Francisco",8
+123494,"San Francisco",10
+123593,Honolulu,2
+123807,Seattle,6
+123935,"San Diego",1
+123990,"San Diego",2
+124246,"San Diego",8
+124263,"Santa Rosa",5
+124315,"Santa Rosa",9
+124723,Denver,6
+124934,"San Francisco",8
+124945,Denver,8
+125027,"San Francisco",5
+125058,Honolulu,2
+125077,Denver,2
+125221,"San Diego",2
+125453,Denver,0
+125748,"San Diego",3
+125863,"San Diego",5
+125962,Seattle,6
+126001,Denver,9
+126217,"San Diego",3
+126247,Denver,1
+126324,Honolulu,1
+126368,"San Diego",1
+126383,"San Francisco",2
+126395,Honolulu,0
+126488,Honolulu,1
+126645,"San Francisco",4
+126662,Honolulu,7
+126694,"San Francisco",9
+126837,Seattle,6
+126907,Seattle,5
+127035,Seattle,2
+127079,"San Francisco",4
+127121,"Santa Rosa",3
+127250,"San Francisco",0
+127597,Denver,7
+127629,Honolulu,9
+127636,Denver,7
+127763,Honolulu,6
+127764,Seattle,8
+127819,"San Francisco",3
+127871,"Santa Rosa",9
+127909,"San Diego",9
+127970,Honolulu,6
+128091,Seattle,4
+128146,Denver,4
+128199,Honolulu,2
+128340,"San Diego",6
+128486,Seattle,2
+128494,"Santa Rosa",9
+128509,"San Diego",3
+128633,"San Diego",5
+128677,Honolulu,4
+128857,"Santa Rosa",6
+129411,Denver,7
+129412,Seattle,7
+129416,Honolulu,0
+129430,Denver,6
+129487,"San Diego",9
+129489,Seattle,6
+129517,"San Francisco",9
+129550,"San Diego",3
+129656,Denver,5
+129773,Denver,6
+129885,"Santa Rosa",2
+130078,"San Diego",5
+130127,"Santa Rosa",8
+130130,Denver,1
+130240,Seattle,2
+130280,Honolulu,10
+130441,Honolulu,9
+130510,Honolulu,1
+130730,Seattle,2
+131352,Honolulu,4
+131385,Denver,1
+131440,"San Francisco",0
+131663,Denver,6
+131670,"San Francisco",9
+131747,"San Diego",2
+131960,"San Diego",5
+132014,"San Diego",7
+132100,Seattle,7
+132136,Seattle,7
+132249,"San Diego",7
+132252,"Santa Rosa",10
+132281,"Santa Rosa",3
+132304,Seattle,1
+132811,Honolulu,1
+132867,"San Diego",8
+132913,"San Francisco",6
+133069,Honolulu,4
+133201,"San Francisco",8
+133202,Denver,1
+133314,"San Francisco",8
+133503,Denver,2
+133626,"Santa Rosa",4
+133665,"Santa Rosa",4
+133666,Seattle,8
+133738,Seattle,2
+133846,"San Diego",4
+133867,"San Diego",8
+134021,"Santa Rosa",2
+134179,"Santa Rosa",6
+134273,Seattle,4
+134372,Denver,1
+134393,Denver,7
+134409,"San Diego",8
+134434,Seattle,5
+134760,Seattle,0
+134799,Denver,1
+134824,Honolulu,9
+134939,"San Francisco",4
+135131,"San Diego",6
+135151,Seattle,0
+135227,"Santa Rosa",3
+135311,"San Francisco",10
+135363,"Santa Rosa",7
+135381,Seattle,3
+135428,Seattle,4
+135455,Honolulu,2
+135549,Seattle,3
+135776,Seattle,2
+136113,Honolulu,9
+136145,Denver,0
+136360,"Santa Rosa",1
+136389,"San Diego",8
+136426,"San Francisco",3
+136663,Honolulu,4
+136697,"San Francisco",3
+136832,"San Diego",3
+136906,"Santa Rosa",7
+136980,Denver,8
+137085,"San Diego",7
+137550,"San Francisco",7
+137589,"San Diego",7
+137864,Honolulu,4
+137923,Seattle,6
+137957,"San Diego",7
+137960,"San Francisco",9
+137967,Denver,5
+137986,Denver,6
+138073,Denver,3
+138078,"San Francisco",7
+138093,Denver,7
+138236,Denver,4
+138254,Honolulu,1
+138380,Seattle,7
+138472,"San Diego",7
+138517,"San Diego",4
+138622,Denver,7
+138825,"San Diego",6
+138994,Seattle,7
+139009,"Santa Rosa",8
+139134,"Santa Rosa",2
+139306,"San Francisco",8
+139317,"San Diego",3
+139497,"San Diego",9
+139617,"San Diego",3
+139741,"Santa Rosa",7
+139744,Seattle,3
+139792,"Santa Rosa",4
+139806,"San Francisco",6

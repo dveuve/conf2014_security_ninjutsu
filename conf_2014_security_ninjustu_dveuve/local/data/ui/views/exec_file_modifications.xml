@@ -1,0 +1,22 @@
+<dashboard>
+  <label>Exec File Modifications</label>
+  <row>
+    <panel>
+      <table>
+        <searchString>| pivot Carbon_Black File_Creations values(host) AS "Distinct Values of host" SPLITROW _time AS _time PERIOD day SPLITROW path AS path FILTER path contains system32 SORT 0 _time ROWSUMMARY 0 COLSUMMARY 0 NUMCOLS 0 SHOWOTHER 1 | stats dc("Distinct Values of host") as NumHosts values("Distinct Values of host") as host by path | eventstats avg(NumHosts) as Avg_NumHosts stdev(NumHosts) as StDev_NumHosts | where NumHosts &lt; Avg_NumHosts - StDev_NumHosts*6 | mvexpand host | fields - *NumHosts  | lookup FileModificationExclusions.csv host path OUTPUTNEW ExceptionStatus | eval Exclude="Exclude Moving Forward"</searchString>
+        <earliestTime>0</earliestTime>
+        <latestTime/>
+        <drilldown>
+          <link field="Exclude">
+            <![CDATA[ /app/conf_2014_security_ninjustu_dveuve/search?q=%7C%20inputlookup%20FileModificationExclusions.csv%20%7C%20append%20%5B%7C%20stats%20count%20%7C%20eval%20host%3D%22M$row.host$%22%20%7C%20eval%20path%3D%22$row.path$%22%20%7C%20eval%20ExceptionStatus%3D%22Malicious%22%7C%20fields%20-%20count%20%5D%20%7C%20dedup%20host%20path%20%7C%20outputlookup%20FileModificationExclusions.csv&earliest=&latest=&sid=1411102284.441 ]]>
+          </link>
+        </drilldown>
+        <option name="wrap">true</option>
+        <option name="rowNumbers">false</option>
+        <option name="dataOverlayMode">none</option>
+        <option name="drilldown">cell</option>
+        <option name="count">10</option>
+      </table>
+    </panel>
+  </row>
+</dashboard>
